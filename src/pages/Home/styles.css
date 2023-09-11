@@ -1,0 +1,102 @@
+.conteudo {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.background {
+  top: 150px;
+  width: 350px;
+  position: fixed;
+  opacity: 0.1;
+  z-index: -1;
+}
+
+.info {
+  width: 70%;
+  margin-top: 40px;
+  color: #ffffff;
+}
+
+input {
+  border: 1px solid #999999;
+  color: #ffffff;
+  border-radius: 22px;
+  min-width: 150px;
+  width: 80%;
+  margin-right: 10px;
+  background: transparent;
+  font-size: 18px;
+  padding: 10px;
+}
+
+button {
+  border: 1px solid #999999;
+  border-radius: 22px;
+  margin-right: 10px;
+  background: #203338;
+  color: #ffffff;
+  font-size: 18px;
+  padding: 10px;
+  cursor: pointer;
+}
+
+.perfil {
+  display: flex;
+  margin: 40px 0;
+}
+
+.profile {
+  width: 120px;
+  height: 120px;
+  border-radius: 60px;
+  border: 2px solid #e5e5e5;
+  margin-right: 32px;
+}
+
+.perfil h3 {
+  color: #999999;
+  font-size: 24px;
+  margin: 0;
+}
+
+.perfil span {
+  display: block;
+  color: #999999;
+  font-size: 12px;
+  margin: 0;
+}
+
+.perfil p {
+  color: #999999;
+  font-size: 12px;
+  margin: 20px 0 0 0;
+}
+
+.repositorio {
+  font-size: 32px;
+  color: #ffffff;
+  margin: 12px 0;
+  text-align: center;
+}
+
+@media (max-width: 860px) {
+  .info {
+    width: 80%;
+  }
+
+  input {
+    width: 70%;
+  }
+}
+
+@media (max-width: 500px) {
+  .info {
+    width: 90%;
+  }
+
+  input {
+    width: 60%;
+  }
+}
